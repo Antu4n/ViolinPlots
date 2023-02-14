@@ -6,7 +6,6 @@ import streamlit as st
 df = pd.read_csv("gapminder_with_codes.csv")
 #get data for the year 2007
 df_2007 = df[df['year']==2007]
-
 #streamlit title
 st.title('Gap Minder')
 
